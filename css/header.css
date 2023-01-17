@@ -1,0 +1,98 @@
+header{
+    background-color: #08546C;
+    display: flex;
+    font-family: "Inter", sans-serif;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.navbar a{
+   color: #A1B5BB;
+}
+nav a:hover {
+    font-family: "inter-semibold", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration-line: underline;
+    color: #a1b5bb;
+  }
+  
+  nav button:hover {
+    background-color: #094556;
+    color: #f5f5f5;
+  }
+.navbar{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-bottom: 30px;
+     margin-top: 30px;
+}
+.navbar li{
+  display: inline-block;
+}
+.navbar a{
+    margin: 0px 25px;
+}
+.header_btn{
+    border: none;
+    background-color: #145E76;
+    color: white;
+    border-radius: 25px;
+    width: 100px;
+    height: 40px;
+}
+.header_btn:hover{
+    background-color: #08546C;
+     width: 100px;
+     height: 40px;
+}
+.logo_img{
+    margin: 0;
+}
+.intro_section{
+    background-color: #08546C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.texts_intro{
+    max-width: 50%;
+}
+.image_intro{
+    position: relative;
+}
+.btn_intro{
+    font-family: 'Schoolbell', cursive;
+    background-color: #094556;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    width: 120px;
+    padding: 14px;
+}
+.h2_intro{
+    font-size: 64px;
+    color: white;
+    font-family:  'Inter', sans-serif;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.p_intro{
+    color: #849499;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+.link_intro{
+    color: #B6CDD4;
+    width: 200px;
+    height: 40px;
+}
+.link_intro:hover{
+    background-color: #FFA63A;
+    border-radius: 25px;
+    width: 200px;
+    padding:;
+    color: white;
+}
